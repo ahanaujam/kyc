@@ -460,42 +460,74 @@
 <div class="gaps-2x"></div>
 <div class="doc-upload doc-upload-d1">
     <h6 class="font-mid doc-type-title">Upload Here Your <strong class="doc-type-name">Passport</strong> Copy</h6>
-    <div class="row align-items-center">
-        <div class="col-sm-8">
-            <div class="upload-box">
-                <div class="upload-zone document_one">
-                    <div class="dz-message" data-dz-message>
-                        <span class="dz-message-text">Drag and drop file</span>
-                        <span class="dz-message-or">or</span>
-                        <input type="file" class="btn btn-primary" name="document_one" accept="image/png, image/jpeg" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4 d-none d-sm-block">
-            <div class="mx-md-4">
-                <img width="160" class="_image" src="assets/images/vector-passport.png" alt>
-            </div>
-        </div>
-    </div>
+    <h6 class="font-mid doc-type-title">Upload Here Your <storng class="doc-type-name">Passport</storng> Copy</h6>
+<div class="row align-items-center">
+<div class="col-sm-8">
+<div class="upload-box">
+<div class="upload-zone document_one">
+<div class="dz-message" data-dz-message>
+<span class="dz-message-text">Drag and drop file</span>
+<span class="dz-message-or">or</span>
+<button type="button" class="btn btn-primary">Select</button>
 </div>
-
-<!-- Repeat similar structure for other document uploads -->
-
-<div class="form-step form-step-final">
-    <div class="form-step-fields card-innr">
-        <div class="input-item">
-            <input class="input-checkbox input-checkbox-md" id="term-condition" name="condition" type="checkbox" required="required" data-msg-required="You should read our terms and policy.">
-            <label for="term-condition">I have read the <a target="_blank" href="terms-and-condition.html">Terms and Condition</a> and <a target="_blank" href="privacy-policy.html">Privacy and Policy</a>.</label>
-        </div>
-        <div class="input-item">
-            <input class="input-checkbox input-checkbox-md" id="info-currect" name="currect" type="checkbox" required="required" data-msg-required="Confirm that all information is correct.">
-            <label for="info-currect">All the personal information I have entered is correct.</label>
-        </div>
-        <div class="gaps-1x"></div>
-        <button class="btn btn-primary" type="submit">Proceed to Verify</button>
-    </div>
 </div>
+<input type="hidden" name="document_one" accept="image/png, image/jpeg" />
+</div>
+</div>
+<div class="col-sm-4 d-none d-sm-block">
+<div class="mx-md-4">
+<img width="160" class="_image" src="assets/images/vector-passport.png" alt>
+</div>
+</div>
+</div>
+</div>
+<div class="doc-upload doc-upload-d2 hide">
+<h6 class="font-mid">Upload Here Your National ID Back Side</h6>
+<div class="row align-items-center">
+<div class="col-sm-8">
+<div class="upload-box">
+<div class="upload-zone document_two">
+<div class="dz-message" data-dz-message>
+<span class="dz-message-text">Drag and drop file</span>
+<span class="dz-message-or">or</span>
+<button type="button" class="btn btn-primary">Select</button>
+</div>
+</div>
+<input type="hidden" name="document_two" accept="image/png, image/jpeg"/>
+</div>
+</div>
+<div class="col-sm-4 d-none d-sm-block">
+<div class="mx-md-4">
+<img width="160" src="assets/images/vector-id-back.png" alt>
+</div>
+</div>
+</div>
+</div>
+<div class="sap sap-gap"></div>
+<div class="doc-upload doc-upload-d3">
+<h6 class="font-mid">Upload a selfie as a Photo Proof while holding document in your hand</h6>
+<div class="row align-items-center">
+<div class="col-sm-8">
+<div class="upload-box">
+<div class="upload-zone document_upload_hand">
+<div class="dz-message" data-dz-message>
+<span class="dz-message-text">Drag and drop file</span>
+<span class="dz-message-or">or</span>
+<button type="button" class="btn btn-primary">Select</button>
+</div>
+</div>
+<input type="hidden" accept="image/png, image/jpeg" name="document_image_hand" />
+</div>
+</div>
+<div class="col-sm-4 d-none d-sm-block">
+<div class="mx-md-4">
+<img width="160" src="assets/images/vector-hand.png" alt>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </div>
 <div class="hiddenFiles"></div>
 
 </form>
